@@ -1,0 +1,26 @@
+body{
+    background-image: url(../assets/background_paint_splash.png);
+    background-size:cover;
+    background-position: center;
+}
+
+@media screen and (orientation: portrait){
+  .parallax_imgs {
+    margin-top: 10%;
+    top: 1;
+    left: 0;
+  }
+}
+
+@media screen and (orientation: landscape){
+  .parallax_imgs {
+    top: 0;
+    left: 0;
+  }
+}
+
+.parallax_imgs{
+  position: absolute;
+  width: 100vw;
+  pointer-events: none;
+}

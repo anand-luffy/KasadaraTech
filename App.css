@@ -4,14 +4,27 @@
     border-radius:20px;
 
 }
+
+.cardtext{
+    position: relative;
+    right: -110%;
+    top:-101%;
+    transition: 2s;
+    backdrop-filter: blur(10px);
+  }
+
+.card:hover .cardtext{
+    right: 0;
+}
+  
 @media screen and (max-width: 768px) {
 .slideimages{
     background-size: cover;
     height:120px;
-    width:230px;
+    width:278px;
     border-radius:20px;
 }
 }
 ::-webkit-scrollbar {
     display: none;
-}
+  }
